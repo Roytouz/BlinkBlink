@@ -5,13 +5,9 @@
 import Foundation
 
 public class BlinkBlink {
-    var pointlessProperty: Any
-    
-    public init(pointlessParam: Any) {
-        self.pointlessProperty = pointlessParam
+    public func generateCode() {
+        
+        print("ˆ%ˆ&%ˆ&%&ˆ%&ˆ%&ˆ%&ˆˆ%&dashdashddhdh#$$#$%#$%$#%##$%#")
     }
     
-    public func temp() {
-        print("this prints to the console so we can see if this is working!")
-    }
 }
