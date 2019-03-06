@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 class ViewController: UIViewController {
 
@@ -15,6 +16,18 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
    
+    
+    public class BlinkBlink {
+        var pointlessProperty: Any
+        
+        public init(pointlessParam: Any) {
+            self.pointlessProperty = pointlessParam
+        }
+        
+        public func temp() {
+            print("this prints to the console so we can see if this is working!")
+        }
+    }
     
     
     override func didReceiveMemoryWarning() {

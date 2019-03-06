@@ -1,16 +1,17 @@
 
 
 
-public class BlinkBlink : UILabel {
-    public func startBlinking() {
-        let options : UIViewAnimationOptions = .repeat
-        UIView.animate(withDuration: 0.25, delay:0.0, options:options, animations: {
-            self.alpha = 0
-        }, completion: nil)
+
+import Foundation
+
+public class BlinkBlink {
+    var pointlessProperty: Any
+    
+    public init(pointlessParam: Any) {
+        self.pointlessProperty = pointlessParam
     }
     
-    public func stopBlinking() {
-        alpha = 1
-        layer.removeAllAnimations()
+    public func temp() {
+        print("this prints to the console so we can see if this is working!")
     }
 }
